@@ -2,7 +2,7 @@
 #include <stack>
 #include <string>
 
-using namespace std;//
+using namespace std;
 
 void Printreverse(stack<char>& s);
 
