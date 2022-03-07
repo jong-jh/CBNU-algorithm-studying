@@ -103,7 +103,7 @@
 
 #### 원격저장소 로컬에 가져오기
 
-<code> git clone https://github.com/kwonja/CBNU-algorithm-studying.git</code>
+<code> git clone https://github.com/kwonja/CBNU-algorithm-studying.git .</code>
 클론후 생성된 파일에 `자기이름` 로 파일생성   ->여기에 코드를 넣을꺼임
 
 #### 로컬에서 개인 브랜치 생성하기
