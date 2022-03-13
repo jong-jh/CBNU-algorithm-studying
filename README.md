@@ -103,7 +103,8 @@
 
 #### 원격저장소 로컬에 가져오기
 
-<code> git clone https://github.com/kwonja/CBNU-algorithm-studying.git .</code>
+<code> git clone [fork한 원격저장소주소] .</code>     
+. 을 안붙이면 algorithm-studying이라는 파일이 생성되면서, 그안에 폴더가 생긴다.(혹시 폴더를 생성해서 그 안에 내용을 넣고싶다면 . 을 붙여라<br>
 클론후 생성된 파일에 `자기이름` 로 파일생성   ->여기에 코드를 넣을꺼임
 
 #### 로컬에서 개인 브랜치 생성하기
@@ -121,9 +122,10 @@ clone으로 가져오면 원격 저장소가 알아서 등록이 될것이다.<b
 4. <code> **git commit -m "message"**</code>
 5. <code> **git push origin kwonja** </code> - 원격저장소 kwonja 브랜치에 반영
 6. <code> **git checkout master** </code> - 브랜치 전환
-7. fork한 원격저장소 최신화
+7. fork한 원격저장소 최신화(자신이 수정한 코드가 원본과 충돌이 없는지 확인)
 8. <code> **git merge kwonja** </code> - 최신화된 master에 kwonja 브랜치 작업 반영
 9. <code> **git push origin master** </code> - 원격저장소 master에 수정사항 반영
+10. PR규칙에 맞게 PR
 
 #### fork한 원격저장소 최신화
 
