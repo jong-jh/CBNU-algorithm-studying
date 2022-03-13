@@ -130,10 +130,11 @@ clone으로 가져오면 원격 저장소가 알아서 등록이 될것이다.<b
 4. <code> **git commit -m "message"**</code>
 5. <code> **git push origin kwonja** </code> - 원격저장소 kwonja 브랜치에 반영
 6. <code> **git checkout master** </code> - 브랜치 전환
-7. fork한 원격저장소 최신화(자신이 수정한 코드가 원본과 충돌이 없는지 확인)
-8. <code> **git merge kwonja** </code> - 최신화된 master에 kwonja 브랜치 작업 반영
-9. <code> **git push origin master** </code> - 원격저장소 master에 수정사항 반영
-10. PR규칙에 맞게 PR
+ (6번을 진행할때 폴더를 처음만들면, 브랜치가 바뀌면서, 폴더가 사라질것이다. 그런데 경로는 그대로 가지고 있어서 에러가 발생한다.(파일을 찾을수 없다고 뜸)<br>
+ <code>cd ..</code>를 통해 뒤로 돌아가면 원래 master 브랜치로 이동
+7. <code> **git merge kwonja** </code> - 최신화된 master에 kwonja 브랜치 작업 반영
+8. <code> **git push origin master** </code> - 원격저장소 master에 수정사항 반영
+9. PR규칙에 맞게 PR
 
 #### fork한 원격저장소 최신화
 
