@@ -14,7 +14,7 @@ int main(){
 
     sort(v.begin(),v.end());
 
-
+    //제일 좋은 경우의수 찾음
     int w;
     w=v[0] * T;
     for(int i = 1; i<T;i++){
